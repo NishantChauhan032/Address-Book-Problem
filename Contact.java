@@ -6,15 +6,6 @@ public class Contact {
     private String phoneNo;
     private String email;
 
-    public Contact(String firstName,String lastName,String address,String zip,String phoneNo,String email){
-        setFirstName(firstName);
-        setLastName(lastName);
-        setAddress(address);
-        setZip(zip);
-        setPhoneNo(phoneNo);
-        setEmail(email);
-    }
-
     public void setFirstName(String firstName) {
         this.firstName=firstName;
     }
